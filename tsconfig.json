@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./node_modules/@yandex/ymaps3-types"],
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -19,6 +20,9 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "ymaps3/*": [
+        "./node_modules/@yandex/ymaps3-types/"
       ]
     },
     "lib": [
